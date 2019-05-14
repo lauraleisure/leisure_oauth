@@ -1,0 +1,29 @@
+.avatar-part{
+    padding: 1rem 0.714rem 3rem;
+    background: #06b9d5;
+    border: 1px solid #06b9d5;
+    border-radius: 0 0 2rem 2rem;
+}
+.avatar-part .photo img{
+    width: 4.286rem;
+    height: 4.286rem;
+    border-radius: 50%;
+}
+.avatar-part .detail-wrap{
+    width: 70%;
+    margin-left: 1rem;
+    color: #fff;
+}
+.avatar-part .detail-wrap .real-name{
+    font-size: 1.357rem;
+    font-weight: 700;
+}
+.avatar-part .detail-wrap .phone{
+    font-size: 1rem;
+}
+.avatar-part  .settings{
+    width: 1.5rem;
+    padding: 1.5rem 0;
+    background: url('/images/icons/icon-setting.png') 96% center no-repeat;
+    background-size: 1.5rem auto;
+}

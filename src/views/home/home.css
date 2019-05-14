@@ -1,0 +1,56 @@
+.icon-container{
+    position: relative;
+}
+.icon-wrapper{
+    flex-wrap: wrap;
+    width: 94.6%;
+    background: #fff;
+    box-shadow: 0 2px 30px 0 rgba(230,230,232,0.50);
+    margin: auto;
+    padding: 0 1.75rem 1.75rem;
+    border-radius: 0.464rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -2rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.icon-wrapper .icon-item{
+    padding: 1rem 0 0;
+    width: 30%;
+    font-family: PingFangSC-Regular;
+    font-size: 0.857rem;
+    color: #262626;
+    letter-spacing: -0.016rem;
+}
+.icon-wrapper .icon-item .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+}
+.icon-wrapper .icon-item .icon.icon-schedule{
+    background: url("/images/icons/icon-schedule.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}
+.icon-wrapper .icon-item .icon.icon-progress{
+    background: url("/images/icons/icon-progress.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}
+.icon-wrapper .icon-item .icon.icon-draft{
+    background: url("/images/icons/icon-draft.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}
+.icon-wrapper .icon-item .icon.icon-calendar{
+    background: url("/images/icons/icon-calendar.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}
+.icon-wrapper .icon-item .icon.icon-works{
+    background: url("/images/icons/icon-works.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}
+.icon-wrapper .icon-item .icon.icon-classroom{
+    background: url("/images/icons/icon-classroom.png") center center no-repeat;
+    background-size:auto 2.5rem;
+}

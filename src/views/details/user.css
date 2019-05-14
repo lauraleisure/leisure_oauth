@@ -1,0 +1,36 @@
+.user-wrapper{
+    width: inherit;
+}
+.user-wrapper .set-sex{
+      width: 30%;
+}
+.user-wrapper .photo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.user-wrapper .photo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.user-wrapper .item-part{
+    margin-bottom: 1rem;
+}
+
+/*注册协议样式*/
+.agreementPage{
+    width: inherit;
+    padding-bottom: 3.14rem;
+}
+.item-p{
+    padding: 0.714rem;
+}
+.item-p .title{
+   background: #eee;
+}
+p{
+    text-indent: 2rem;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}

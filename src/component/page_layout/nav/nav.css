@@ -1,0 +1,54 @@
+.nav_container{
+    max-width: 500px;
+    min-width: 320px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #fff;
+    height: 3.5rem;
+}
+dt{
+    width: 100%;
+    height: 1.5rem;
+    margin: .5rem auto .125rem;
+}
+dd{
+    height: 1.5rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+.icon.icon-home dt{
+    background: url("/images/nav/icon-home.png") center center no-repeat;
+    background-size: auto 1.32rem;
+}
+.icon.icon-home.active dt{
+    background: url("/images/nav/icon-home-a.png") center center no-repeat;
+    background-size: auto 1.32rem;
+}
+.icon.icon-comment dt{
+    background: url("/images/nav/icon-makefollow.png") center center no-repeat;
+    background-size:auto 1.32rem;
+}
+.icon.icon-comment.active dt{
+    background: url("/images/nav/icon-makefollow-a.png") center center no-repeat;
+    background-size:auto 1.32rem;
+}
+.icon.icon-my dt{
+    background: url("/images/nav/icon-user.png") center center no-repeat;
+    background-size:auto 1.32rem;
+}
+.icon.icon-my.active dt{
+    background: url("/images/nav/icon-user-a.png") center center no-repeat;
+    background-size:auto 1.32rem;
+}
+.icon dd{
+    color: #868686;
+}
+.icon.active dd{
+    color: #00B8D5;
+}
+.pages{
+    padding-bottom: 6.5rem;
+}

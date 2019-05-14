@@ -1,0 +1,21 @@
+.crumb-part{
+    text-align: center;
+    height: 3.14rem;
+    line-height: 3.14rem;
+    background: #fff ;
+    padding: 0 0.714rem ;
+    font-size: 1rem;
+}
+.crumb-part .crumb-title{
+    font-size: 1.07rem;
+    font-weight: 700;
+}
+.goBack{
+    height: 3.14rem;
+    line-height: 3.14rem;
+    width: 2rem;
+    background: url("/images/goback.png") 0 center no-repeat;
+    background-size: 0.65rem auto;
+}
+
+
